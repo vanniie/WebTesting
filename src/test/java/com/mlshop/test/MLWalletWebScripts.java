@@ -2,16 +2,16 @@ package com.mlshop.test;
 
 import org.testng.annotations.Test;
 
-public class MLWalletWebScriptsSuite2 extends BaseTest{
+public class MLWalletWebScripts extends BaseTest{
 
 //    @Test(priority = 1)
 //    public void mlShopProfileNameAndDropDownValidation() throws Exception {
 //        mlWalletWeb.mlShopProfileNameAndDropDownValidation();
 //    }
-    @Test(priority = 1)
-    public void shopItemsProfilePageNavigation() throws Exception {
-        mlWalletWeb.shopItemsProfilePageNavigation();
-    }
+//    @Test(priority = 2)
+//    public void shopItemsProfilePageNavigation() throws Exception {
+//        mlWalletWeb.shopItemsProfilePageNavigation();
+//    }
 //    @Test(priority = 3)
 //    public void shopItemsPurchaseHistoryPageNavigation() throws Exception {
 //        mlWalletWeb.shopItemsPurchaseHistoryPageNavigation();
@@ -57,7 +57,22 @@ public class MLWalletWebScriptsSuite2 extends BaseTest{
 //    public void shopItemsRingProductPurchaseScenario() throws Exception {
 //        mlWalletWeb.shopItemsRingProductPurchaseScenario();
 //    }
+    @Test(priority = 1)
+    public void shopItemsShippingDetailsPageUIValidation() throws Exception {
+        mlWalletWeb.shopItemsShippingDetailsPageUIValidation();
+    }
 
+    @Test(priority = 2)
+    public void shopItemsAddedItemInCartDeletedPopupValidationYesButton() throws Exception
+    {
+        mlWalletWeb.shopItemsAddedItemInCartDeletedPopupValidationYesButton();
+    }
+
+    @Test(priority = 3)
+    public void shopItemsAddedItemInCartDeletedPopupValidationCancelButton() throws Exception
+    {
+        mlWalletWeb.shopItemsAddedItemInCartDeletedPopupValidationCancelButton();
+    }
 
 //    @Test(priority = 15)
 //    public void  shopItemsRedirectToPayMongoPageGrabPayValidation_SI_TC_225() throws Exception
