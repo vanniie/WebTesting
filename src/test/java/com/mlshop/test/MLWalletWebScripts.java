@@ -53,22 +53,22 @@ public class MLWalletWebScripts extends BaseTest{
 //        mlWalletWeb.shopItemsWatchProductTypePageNavigationValidation();
 //    }
 //
-//    @Test(priority = 1)
-//    public void shopItemsRingProductPurchaseScenario() throws Exception {
-//        mlWalletWeb.shopItemsRingProductPurchaseScenario();
-//    }
-//    @Test(priority = 1)
-//    public void shopItemsShippingDetailsPageUIValidation() throws Exception {
-//        mlWalletWeb.shopItemsShippingDetailsPageUIValidation();
-//    }
-//
-//    @Test(priority = 13)
-//    public void shopItemsAddedItemInCartDeletedPopupValidationYesButton() throws Exception
-//    {
-//        mlWalletWeb.shopItemsAddedItemInCartDeletedPopupValidationYesButton();
-//    }
-
     @Test(priority = 1)
+    public void shopItemsRingProductPurchaseScenario() throws Exception {
+        mlWalletWeb.shopItemsRingProductPurchaseScenario();
+    }
+    @Test(priority = 2)
+    public void shopItemsShippingDetailsPageUIValidation() throws Exception {
+        mlWalletWeb.shopItemsShippingDetailsPageUIValidation();
+    }
+
+    @Test(priority = 3)
+    public void shopItemsAddedItemInCartDeletedPopupValidationYesButton() throws Exception
+    {
+        mlWalletWeb.shopItemsAddedItemInCartDeletedPopupValidationYesButton();
+    }
+
+    @Test(priority = 4)
     public void shopItemsAddedItemInCartDeletedPopupValidationCancelButton() throws Exception
     {
         mlWalletWeb.shopItemsAddedItemInCartDeletedPopupValidationCancelButton();
