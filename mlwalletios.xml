@@ -13,10 +13,6 @@
         <parameter name="portno" value="4723"></parameter>
         <parameter name="deviceName" value="00008101-0013245C2600801E"></parameter>
         <classes>
-
-<!--
-
-
        </classes>
     </test>
 </suite>

@@ -303,7 +303,8 @@
 					<!--suppress UnresolvedMavenProperty -->
 					<groups>${groups}</groups>
 					<suiteXmlFiles>
-						<suiteXmlFile>MLShopWeb.xml</suiteXmlFile>
+						<suiteXmlFile>MLShopWebSuite1.xml</suiteXmlFile>
+						<suiteXmlFile>MLShopWebSuite2.xml</suiteXmlFile>
 						<!--<suiteXmlFile>mlwalletios.xml</suiteXmlFile>-->
 					</suiteXmlFiles>
 				</configuration>
