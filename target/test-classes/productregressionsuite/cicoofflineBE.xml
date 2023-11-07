@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <parameter name="Env" value="sit"/>
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="url" value="https://www.google.com/"/>
+
+    <test name="Regression1">
+        <classes>
+            <class name="com.cicoOfflineBE.test.BarcodeApiTest"/>
+            <class name="com.cicoOfflineBE.test.ReferenceCodeApiTest"/>
+            <class name="com.cicoOfflineBE.test.V1CashInApiTest"/>
+            <class name="com.cicoOfflineBE.test.V2CashInApiTest"/>
+            <class name="com.cicoOfflineBE.test.CashOutApiTest"/>
+            <class name="com.cicoOfflineBE.test.SevenElevenApiTest"/>
+        </classes>
+    </test>
+</suite>

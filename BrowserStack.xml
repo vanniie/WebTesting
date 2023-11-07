@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IOSBrowserStack" parallel="false" thread-count="1">
+
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="url" value="https://www.google.com/"></parameter>
+
+    <listeners>
+
+        <listener class-name="com.utility.ExtentReporter"/>
+
+    </listeners>
+
+    <test name="BrowserStack_Demo">
+        <parameter name="portno" value="4723"></parameter>
+        <parameter name="deviceName" value="iPhone X"></parameter>
+
+            <classes>
+
+
+
+            </classes>
+
+    </test>
+
+    <!--<test name="BrowserStack_Demo2">
+        <parameter name="portno" value="4723"></parameter>
+        <parameter name="deviceName" value="Samsung Galaxy S9"></parameter>
+        <classes>
+
+        </classes>
+    </test>-->
+</suite>

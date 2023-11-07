@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T18:35:54 SGT" name="Web" finished-at="2023-09-21T18:40:47 SGT" duration-ms="293225">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T18:35:54 SGT" name="MLWALLET" finished-at="2023-09-21T18:40:47 SGT" duration-ms="293225">
+      <class name="com.mlwallet.test.MLWalletWebScripts">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:35:54 SGT" name="beforeMethod" finished-at="2023-09-21T18:35:59 SGT" duration-ms="5178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00008101-0013245C2600801E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mlShopProfileNameAndDropDownValidation()[pri:1, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:35:59 SGT" name="mlShopProfileNameAndDropDownValidation" finished-at="2023-09-21T18:36:36 SGT" duration-ms="36627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mlShopProfileNameAndDropDownValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:36:36 SGT" name="afterTest" finished-at="2023-09-21T18:36:41 SGT" duration-ms="5126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:36:41 SGT" name="beforeMethod" finished-at="2023-09-21T18:36:44 SGT" duration-ms="3307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00008101-0013245C2600801E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shopItemsRingProductPurchaseScenario()[pri:1, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:36:44 SGT" name="shopItemsRingProductPurchaseScenario" finished-at="2023-09-21T18:37:59 SGT" duration-ms="74264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopItemsRingProductPurchaseScenario -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:37:59 SGT" name="afterTest" finished-at="2023-09-21T18:38:04 SGT" duration-ms="5117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:38:04 SGT" name="beforeMethod" finished-at="2023-09-21T18:38:07 SGT" duration-ms="3614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00008101-0013245C2600801E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shopItemsProfilePageNavigation()[pri:2, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:38:07 SGT" name="shopItemsProfilePageNavigation" finished-at="2023-09-21T18:38:44 SGT" duration-ms="36106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopItemsProfilePageNavigation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:38:44 SGT" name="afterTest" finished-at="2023-09-21T18:38:49 SGT" duration-ms="5068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:38:49 SGT" name="beforeMethod" finished-at="2023-09-21T18:38:52 SGT" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00008101-0013245C2600801E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shopItemsPurchaseHistoryPageNavigation()[pri:3, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:38:52 SGT" name="shopItemsPurchaseHistoryPageNavigation" finished-at="2023-09-21T18:39:28 SGT" duration-ms="35622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopItemsPurchaseHistoryPageNavigation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:39:28 SGT" name="afterTest" finished-at="2023-09-21T18:39:33 SGT" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:39:33 SGT" name="beforeMethod" finished-at="2023-09-21T18:39:36 SGT" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00008101-0013245C2600801E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shopItemsLogoutValidation()[pri:4, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:39:36 SGT" name="shopItemsLogoutValidation" finished-at="2023-09-21T18:40:42 SGT" duration-ms="65320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopItemsLogoutValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mlwallet.test.MLWalletWebScripts@4bef0fe3]" started-at="2023-09-21T18:40:42 SGT" name="afterTest" finished-at="2023-09-21T18:40:47 SGT" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.mlwallet.test.MLWalletWebScripts -->
+    </test> <!-- MLWALLET -->
+  </suite> <!-- Web -->
+</testng-results>

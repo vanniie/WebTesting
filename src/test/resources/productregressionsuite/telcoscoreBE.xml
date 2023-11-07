@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1">
+        <classes>
+            <class name="com.gTelcoScoreBE.test.FinscoreApiTest"/>
+            <class name="com.gTelcoScoreBE.test.HomeCreditUATApiTest"/>
+            <class name="com.gTelcoScoreBE.test.TrustingSocialUatApiTest"/>
+        </classes>
+    </test>
+</suite>
